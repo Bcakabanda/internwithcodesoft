@@ -1,0 +1,182 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F1; /* Light grey background */
+    color: #333333; /* Dark grey text */
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: url('hero-background.jpg') no-repeat center center/cover; /* Background image for the header */
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(62, 78, 184, 0.8); /* Semi-transparent overlay with cool blue */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #4CAF50; /* Fresh green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white; /* White background for sections */
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #4CAF50; /* Fresh green */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    background-color: #FFECB3; /* Light yellow for product boxes */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+}
+
+.product-box h4 {
+    margin-top: 20px;
+    color: #FF9800; /* Warm orange for feature titles */
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-box {
+    background-color: #FFECB3; /* Light yellow for testimonial boxes */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    font-style: italic;
+}
+
+#cta {
+    background-color: #4CAF50; /* Fresh green for CTA section */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#cta .btn {
+    background-color: #E91E63; /* Vibrant pink */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cta .btn:hover {
+    background-color: #C2185B; /* Darker pink on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50; /* Fresh green on focus */
+}
+
+form button {
+    background-color: #E91E63; /* Vibrant pink */
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #C2185B; /* Darker pink on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333333; /* Dark grey footer */
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
